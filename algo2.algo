@@ -1,0 +1,19 @@
+ALGORITHM checkpoint
+VAR
+    ch:STRING
+    i,j,k:INTEGER
+BEGIN
+    WRITE ("enter a ohrase end with'.'")
+    Read (ch)
+    WHILE (ch)[i]!="."do 
+    i=i+1
+    END WHILE 
+    for j FROM 0 to i STEP 1 do 
+    if ch[j]=" " THEN 
+    K=1+1
+    END IF 
+    END FOR 
+    WRITE("CH lenghtb is, i")
+    WRITE("number of words=", k)
+    WRITE("numbers of vowls=",v)
+END
