@@ -1,0 +1,25 @@
+ALGORITHM sum
+VAR
+    set1: array of INTEGER [3,1,7,9]
+    set2 : array of INTEGER [2,4,1,9,3]
+    i:INTEGER=0
+    j:INTEGER=0
+    sum:INTEGER=0
+BEGIN
+   FOR i FROM 0 to set1-1 step 1 do 
+   FOR j FROM 0 to set2-1 step 1 do
+    
+     IF   set(set[i]<>set[j]) THEN
+      sum=sum +set1[i]
+
+  END_IF 
+  END_FOR
+  FOR j FROM 0 to set2-1 step 1 do 
+   FOR i FROM 0 to set1-1 step 1 do
+    
+     IF   set(set1[i]<>set2[j]) THEN
+      sum=sum +set2[j]
+      END_IF
+END_FOR 
+  WRITE (sum)
+END

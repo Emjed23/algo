@@ -1,0 +1,17 @@
+ALGORITHM insert
+
+VAR
+   i,j:INTEGER
+   len: INTEGER
+BEGIN
+   
+    len := length(array)
+    for i := 1 to len:
+        j := i
+        while j > 0 and array[j - 1] > array[j]:
+            swap(array[j], array[j - 1])
+            j = j - 1
+        end while
+    end for
+
+END

@@ -13,7 +13,7 @@ BEGIN
     K=1+1
     END IF 
     END FOR 
-    WRITE("CH lenghtb is, i")
+    WRITE("ch lenghtb is, i")
     WRITE("number of words=", k)
     WRITE("numbers of vowls=",v)
 END
