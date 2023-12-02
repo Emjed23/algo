@@ -1,0 +1,17 @@
+ALGORITHM Palindrome
+VAR
+   s:STRING:BOOLEAN
+BEGIN
+    IF (s.length>2) THEN 
+    IF (s[0]==s[s.lenght-1]) THEN
+    s==sunstring(s,0,s.length-1)
+RETURN Palindrome
+END IF 
+
+ELSE
+   RETURN TRUE;
+
+END_IF
+    RETURN FALSE;
+  
+END
